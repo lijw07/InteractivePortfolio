@@ -1,16 +1,21 @@
+
+<div align="center">
+
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                                                                           ║
-║   ██╗███╗   ██╗████████╗███████╗██████╗  █████╗  ██████╗████████╗██╗██╗  ║
-║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║██║  ║
-║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝███████║██║        ██║   ██║██║  ║
-║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██╔══██║██║        ██║   ██║╚═╝  ║
-║   ██║██║ ╚████║   ██║   ███████╗██║  ██║██║  ██║╚██████╗   ██║   ██║██╗  ║
-║   ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝╚═╝  ║
+║   ██╗███╗   ██╗████████╗███████╗██████╗  █████╗  ██████╗████████╗██╗██╗   ║
+║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║██║   ║
+║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝███████║██║        ██║   ██║██║   ║
+║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██╔══██║██║        ██║   ██║╚═╝   ║
+║   ██║██║ ╚████║   ██║   ███████╗██║  ██║██║  ██║╚██████╗   ██║   ██║██╗   ║
+║   ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝╚═╝   ║
 ║                                                                           ║
-║                    P O R T F O L I O   E X P E R I E N C E               ║
+║                    P O R T F O L I O   E X P E R I E N C E                ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 <div align="center">
   
@@ -32,12 +37,11 @@ Step into my virtual office space! This interactive portfolio transforms the tra
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ 🚶 Character Movement    │ Walk around the office space     │
-│ 💬 Interactive Objects   │ Click to reveal portfolio items  │
-│ 🏢 Multiple Rooms       │ Each room = different section    │
-│ 🎨 Pixel Art Style      │ Retro office aesthetic          │
-│ 🌐 Web Deployment       │ Play directly in your browser    │
-│ 📱 Responsive Design    │ Works on desktop and mobile      │
+│ 🚶 Character Movement   │ Walk around the office space      │
+│ 💬 Interactive Objects  │ Click to reveal portfolio items   │
+│ 🏢 Multiple Rooms       │ Each room = different section     │
+│ 🎨 Pixel Art Style      │ Retro office aesthetic            │
+│ 🌐 Web Deployment       │ Play directly in your browser     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -100,27 +104,6 @@ cd InteractivePortfolio
 
 ---
 
-## 🎮 Controls
-
-```
-╔══════════════════════════════════════════════════════════╗
-║                    CONTROL SCHEME                        ║
-╠══════════════════════════════════════════════════════════╣
-║                                                          ║
-║     W ↑              🖱️ MOUSE                           ║
-║   A ← → D         • Left Click: Interact                ║
-║     S ↓           • Right Click: Context Menu           ║
-║                                                          ║
-║   OR use          📱 MOBILE                             ║
-║   Arrow Keys      • Tap: Move to location               ║
-║                   • Tap Object: Interact                 ║
-║                                                          ║
-║   ESC: Menu       SPACE: Action/Interact                ║
-╚══════════════════════════════════════════════════════════╝
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -140,66 +123,7 @@ cd InteractivePortfolio
 
 ---
 
-## 🌍 Deployment Options
-
-<div align="center">
-
-| Platform | Best For | Difficulty |
-|----------|----------|------------|
-| 🐙 **GitHub Pages** | Free hosting, version control | ⭐⭐ |
-| 🔷 **Netlify** | Auto-deploy, custom domains | ⭐ |
-| ▲ **Vercel** | Fast CDN, analytics | ⭐ |
-| 🎮 **Itch.io** | Game community, feedback | ⭐ |
-| 🖥️ **Own Server** | Full control, custom backend | ⭐⭐⭐ |
-
-</div>
-
----
-
-## 🤝 Contributing
-
-We love contributions! Here's how you can help:
-
-```bash
-# 1. Fork the repository
-# 2. Create your feature branch
-git checkout -b feature/AmazingFeature
-
-# 3. Make your changes
-# 4. Commit with a descriptive message
-git commit -m '✨ Add some AmazingFeature'
-
-# 5. Push to your branch
-git push origin feature/AmazingFeature
-
-# 6. Open a Pull Request
-```
-
----
 
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📬 Contact & Links
-
-<div align="center">
-
-📧 **Email**: [your.email@example.com](mailto:your.email@example.com)  
-💼 **LinkedIn**: [Your Name](https://linkedin.com/in/yourname)  
-🐙 **GitHub**: [@yourusername](https://github.com/yourusername)  
-
-🔗 **Live Demo**: [Play Now!](https://your-portfolio-url.com)  
-📂 **Repository**: [View Code](https://github.com/yourusername/InteractivePortfolio)
-
-</div>
-
----
-
-<div align="center">
-  
-Made with ❤️ and lots of ☕ using Unity
-
-</div>
