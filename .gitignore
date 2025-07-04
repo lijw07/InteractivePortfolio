@@ -116,3 +116,6 @@ yarn-error.log*
 *.meta
 /Assets/Modern_Office_Revamped_v1
 /Assets/moderninteriors-win
+/Assets/modernexteriors-win
+/Assets/modernuserinterface-win
+/Assets/WIP_Theme

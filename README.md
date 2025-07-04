@@ -41,90 +41,165 @@ Step into my virtual office space! This interactive portfolio transforms the tra
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Technologies
+---
 
-- Unity (2D)
-- C#
-- WebGL for browser deployment
+## 🛠️ Tech Stack
 
-## Getting Started
+<div align="center">
 
-### Prerequisites
+| Technology | Purpose |
+|------------|---------|
+| ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white) | Game Engine |
+| ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) | Programming |
+| ![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white) | Web Deployment |
 
-- Unity (version 2021.3 or higher recommended)
-- Web browser with WebGL support
-- Git
+</div>
 
-### Installation
+---
 
-1. Clone the repository:
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+```
+✓ Unity 2021.3 LTS or higher
+✓ Git
+✓ Web browser with WebGL support
+✓ Basic knowledge of Unity Editor
+```
+
+### 💾 Installation
+
 ```bash
+# Clone the repository
 git clone [your-repository-url]
 cd InteractivePortfolio
+
+# Open with Unity Hub
+# 1. Click "Add" in Unity Hub
+# 2. Browse to the cloned folder
+# 3. Select Unity version and open
 ```
 
-2. Open the project in Unity Hub
-3. Wait for Unity to import all assets and packages
-4. Open the main scene from `Assets/Scenes/`
-
-### Development
-
-1. Make your changes in Unity Editor
-2. Test locally using Play mode
-3. Build for WebGL when ready to deploy
-
-### Building for Web
-
-1. Go to File > Build Settings
-2. Select WebGL platform
-3. Click "Build and Run" or "Build"
-4. Choose output directory
-5. Deploy the built files to your web server
-
-## Controls
-
-- **Arrow Keys/WASD**: Move character
-- **Mouse**: Click to interact with objects
-- **ESC**: Open menu (if implemented)
-
-## Project Structure
+### 🎮 Development Workflow
 
 ```
-InteractivePortfolio/
-├── Assets/
-│   ├── Scripts/
-│   ├── Sprites/
-│   ├── Prefabs/
-│   ├── Scenes/
-│   └── Materials/
-├── Packages/
-├── ProjectSettings/
-└── README.md
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Make Changes   │ --> │   Test Locally  │ --> │  Build WebGL    │
+│  in Unity       │     │   (Play Mode)   │     │  for Deploy     │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
 ```
 
-## Deployment
+### 🌐 Building for Web
 
-The project can be deployed to any web server that supports static file hosting:
-- GitHub Pages
-- Netlify
-- Vercel
-- Itch.io
-- Your own web server
+1. **Open Build Settings**: `File → Build Settings`
+2. **Select Platform**: Choose `WebGL`
+3. **Player Settings**: Configure compression and optimization
+4. **Build**: Click `Build and Run`
+5. **Deploy**: Upload to your hosting service
 
-## Contributing
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 🎮 Controls
 
-## License
+```
+╔══════════════════════════════════════════════════════════╗
+║                    CONTROL SCHEME                        ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║     W ↑              🖱️ MOUSE                           ║
+║   A ← → D         • Left Click: Interact                ║
+║     S ↓           • Right Click: Context Menu           ║
+║                                                          ║
+║   OR use          📱 MOBILE                             ║
+║   Arrow Keys      • Tap: Move to location               ║
+║                   • Tap Object: Interact                 ║
+║                                                          ║
+║   ESC: Menu       SPACE: Action/Interact                ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-## Contact
+## 📁 Project Structure
 
-[Your Name] - [Your Email]
+```
+🏢 InteractivePortfolio/
+│
+├── 📂 Assets/
+│   ├── 📜 Scripts/         → Player controls, interactions
+│   ├── 🎨 Sprites/         → Pixel art assets
+│   ├── 🏗️ Prefabs/         → Reusable game objects
+│   ├── 🎬 Scenes/          → Game levels/rooms
+│   └── 🎭 Materials/       → Shaders and materials
+│
+├── 📦 Packages/            → Unity package manifest
+├── ⚙️ ProjectSettings/      → Unity project config
+└── 📄 README.md            → You are here!
+```
 
-Project Link: [https://github.com/yourusername/InteractivePortfolio](https://github.com/yourusername/InteractivePortfolio)
+---
+
+## 🌍 Deployment Options
+
+<div align="center">
+
+| Platform | Best For | Difficulty |
+|----------|----------|------------|
+| 🐙 **GitHub Pages** | Free hosting, version control | ⭐⭐ |
+| 🔷 **Netlify** | Auto-deploy, custom domains | ⭐ |
+| ▲ **Vercel** | Fast CDN, analytics | ⭐ |
+| 🎮 **Itch.io** | Game community, feedback | ⭐ |
+| 🖥️ **Own Server** | Full control, custom backend | ⭐⭐⭐ |
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+We love contributions! Here's how you can help:
+
+```bash
+# 1. Fork the repository
+# 2. Create your feature branch
+git checkout -b feature/AmazingFeature
+
+# 3. Make your changes
+# 4. Commit with a descriptive message
+git commit -m '✨ Add some AmazingFeature'
+
+# 5. Push to your branch
+git push origin feature/AmazingFeature
+
+# 6. Open a Pull Request
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact & Links
+
+<div align="center">
+
+📧 **Email**: [your.email@example.com](mailto:your.email@example.com)  
+💼 **LinkedIn**: [Your Name](https://linkedin.com/in/yourname)  
+🐙 **GitHub**: [@yourusername](https://github.com/yourusername)  
+
+🔗 **Live Demo**: [Play Now!](https://your-portfolio-url.com)  
+📂 **Repository**: [View Code](https://github.com/yourusername/InteractivePortfolio)
+
+</div>
+
+---
+
+<div align="center">
+  
+Made with ❤️ and lots of ☕ using Unity
+
+</div>
