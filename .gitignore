@@ -119,3 +119,7 @@ yarn-error.log*
 /Assets/modernexteriors-win
 /Assets/modernuserinterface-win
 /Assets/WIP_Theme
+/Assets/vFolders
+/Assets/vHierarchy
+/Assets/vInspector
+/Packages/com.singularitygroup.hotreload

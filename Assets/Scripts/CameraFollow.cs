@@ -2,20 +2,17 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [Header("Target")]
+    [Header("Target Settings")]
     [SerializeField] private Transform target;
     
     [Header("Follow Settings")]
     [SerializeField] private float smoothSpeed = 0.125f;
-    [SerializeField] private Vector3 offset = new Vector3(0, 0, -10);
-    [SerializeField] private bool useSmoothing = true;
+    [SerializeField] private Vector3 offset = new Vector3(0f, 0f, -10f);
     
-    [Header("Boundaries (Optional)")]
-    [SerializeField] private bool useBoundaries = false;
-    [SerializeField] private float minX = -10f;
-    [SerializeField] private float maxX = 10f;
-    [SerializeField] private float minY = -10f;
-    [SerializeField] private float maxY = 10f;
+    [Header("Camera Bounds (Optional)")]
+    [SerializeField] private bool useBounds = false;
+    [SerializeField] private Vector2 minBounds;
+    [SerializeField] private Vector2 maxBounds;
     
     private void Start()
     {
@@ -29,27 +26,20 @@ public class CameraFollow : MonoBehaviour
         }
     }
     
-    void FixedUpdate()
+    private void LateUpdate()
     {
         if (target == null) return;
         
         Vector3 desiredPosition = target.position + offset;
         
-        if (useBoundaries)
+        if (useBounds)
         {
-            desiredPosition.x = Mathf.Clamp(desiredPosition.x, minX, maxX);
-            desiredPosition.y = Mathf.Clamp(desiredPosition.y, minY, maxY);
+            desiredPosition.x = Mathf.Clamp(desiredPosition.x, minBounds.x, maxBounds.x);
+            desiredPosition.y = Mathf.Clamp(desiredPosition.y, minBounds.y, maxBounds.y);
         }
         
-        if (useSmoothing)
-        {
-            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.fixedDeltaTime * 50f);
-            transform.position = smoothedPosition;
-        }
-        else
-        {
-            transform.position = desiredPosition;
-        }
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        transform.position = smoothedPosition;
     }
     
     public void SetTarget(Transform newTarget)
